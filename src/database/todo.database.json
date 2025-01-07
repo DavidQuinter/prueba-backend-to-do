@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Comprar alimentos",
+    "description": "Ir al supermercado y comprar frutas, verduras y pan.",
+    "status": false
+  },
+  {
+    "id": 2,
+    "title": "Hacer ejercicio",
+    "description": "Completar una sesión de yoga de 30 minutos.",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Leer un libro",
+    "description": "Terminar el capítulo 4 del libro actual.",
+    "status": false
+  },
+  {
+    "id": 4,
+    "title": "Limpiar la casa",
+    "description": "Aspirar las alfombras y limpiar el baño.",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Responder correos",
+    "description": "Revisar y responder los correos pendientes del trabajo.",
+    "status": false
+  },
+  {
+    "id": 6,
+    "title": "Preparar el almuerzo",
+    "description": "Cocinar pasta con salsa de tomate y albahaca.",
+    "status": false
+  },
+  {
+    "id": 7,
+    "title": "Llamar a mamá",
+    "description": "Hablar con mamá para saber cómo está.",
+    "status": true
+  },
+  {
+    "id": 8,
+    "title": "Organizar el escritorio",
+    "description": "Ordenar los documentos y limpiar el polvo del escritorio.",
+    "status": false
+  },
+  {
+    "id": 9,
+    "title": "Actualizar la lista de tareas",
+    "description": "Agregar nuevas tareas y eliminar las completadas.",
+    "status": true
+  },
+  {
+    "id": 10,
+    "title": "Pagar las facturas",
+    "description": "Realizar los pagos de servicios como agua y luz.",
+    "status": false
+  }
+]
