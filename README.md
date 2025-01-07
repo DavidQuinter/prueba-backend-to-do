@@ -29,7 +29,7 @@ npm install
 npm start
 ```
 
-El servidor se iniciará en `http://localhost:[PUERTO]` utilizando nodemon para reinicio automático durante el desarrollo.
+El servidor se iniciará en `http://localhost:3030` utilizando nodemon para reinicio automático durante el desarrollo.
 
 ## 📡 Endpoints
 
@@ -40,8 +40,9 @@ El servidor se iniciará en `http://localhost:[PUERTO]` utilizando nodemon para 
 [
   {
     "id": 1,
-    "titulo": "Completar proyecto",
-    "completada": false
+    "title": "Completar proyecto",
+    "description":'...'
+    "status": true
   }
 ]
 ```
@@ -51,8 +52,8 @@ El servidor se iniciará en `http://localhost:[PUERTO]` utilizando nodemon para 
 - **Body**:
 ```json
 {
-  "titulo": "Nueva tarea",
-  "completada": false
+  "title": "Nueva tarea",
+  "description":'...'
 }
 ```
 
@@ -61,8 +62,8 @@ El servidor se iniciará en `http://localhost:[PUERTO]` utilizando nodemon para 
 - **Body**:
 ```json
 {
-  "titulo": "Tarea actualizada",
-  "completada": true
+  "title": "Tarea actualizada",
+  "description":'...'
 }
 ```
 
@@ -77,7 +78,7 @@ Ejemplo de cómo crear una nueva tarea utilizando curl:
 ```bash
 curl -X POST http://localhost:3000/tasks \
   -H "Content-Type: application/json" \
-  -d '{"titulo": "Mi primera tarea", "completada": false}'
+  -d '{"title": "Mi primera tarea", "description":'...'}'
 ```
 
 ## ✍️ Autor
